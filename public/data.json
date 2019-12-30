@@ -1,0 +1,287 @@
+[
+    {
+        "id": 1,
+        "title": "Segment A",
+        "description": "High Profitability/efficiency and low potential",
+        "draft": true,
+        "version": 1.4,
+        "users": 4,
+        "objectives": [
+            {
+                "id": 1,
+                "name": "Expand market in Belglum",
+                "activity": [
+                    {
+                        "id": 1,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Expand market in Belglum",
+                "activity": [
+                    {
+                        "id": 1,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Expand market in Belglum",
+                "activity": [
+                    {
+                        "id": 1,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    }
+                ]
+            }
+        ],
+        "accounts": {
+            "selected": [
+                "Scienuvo",
+                "Brandegic"
+            ],
+            "non_selected": [
+                "Brandsoon",
+                "Transitial",
+                "Cetreno",
+                "Phanmonis",
+                "Pentegis"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "title": "Segment B",
+        "description": "High Profitability/efficiency and low potential",
+        "draft": false,
+        "version": 1.4,
+        "users": 3,
+        "objectives": [
+            {
+                "id": 1,
+                "name": "Expand market in Belglum",
+                "activity": [
+                    {
+                        "id": 1,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Expand market in Belglum",
+                "activity": [
+                    {
+                        "id": 1,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Expand market in Belglum",
+                "activity": [
+                    {
+                        "id": 1,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    }
+                ]
+            }
+        ],
+        "accounts": {
+            "selected": [
+                "Scienuvo",
+                "Brandegic",
+                "Brandsoon"
+            ],
+            "non_selected": [
+                "Transitial",
+                "Cetreno",
+                "Phanmonis",
+                "Pentegis"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "title": "Segment C",
+        "description": "High Profitability/efficiency and low potential",
+        "draft": false,
+        "version": 1.4,
+        "users": 4,
+        "objectives": [
+            {
+                "id": 1,
+                "name": "Expand market in Belglum",
+                "activity": [
+                    {
+                        "id": 1,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Expand market in Belglum",
+                "activity": [
+                    {
+                        "id": 1,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Expand market in Belglum",
+                "activity": [
+                    {
+                        "id": 1,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Attend networking events",
+                        "product": "Car Insurance",
+                        "impact_level": "High"
+                    }
+                ]
+            }
+        ],
+        "accounts": {
+            "selected": [
+                "Scienuvo",
+                "Brandegic"
+            ],
+            "non_selected": [
+                "Brandsoon",
+                "Transitial",
+                "Cetreno",
+                "Phanmonis",
+                "Pentegis"
+            ]
+        }
+    }
+]
