@@ -538,6 +538,7 @@ h6 {
 
     button {
         margin-right: 10px;
+        margin-bottom: 2.5px;
     }
 }
 
@@ -713,7 +714,7 @@ h6 {
     }
 }
 
-@media screen and (max-width: 542px) {
+@media screen and (max-width: 718px) {
     .div-seg-footer h4 {
         font-size: 12px;
     }
@@ -721,10 +722,17 @@ h6 {
     .div-seg-footer h5 {
         font-size: 10px;
     }
+    .div-item-plain2 {
+        line-height: 24px;
+    }
 
     .div-obj-name-splain {
         font-size: 13px;
-        line-height: 24px;
+    }
+
+    .div-act-splain {
+        font-size: 13px;
+        line-height: 18px;
     }
 
     .btn-v1 {
@@ -733,6 +741,12 @@ h6 {
 
     .btn-b {
         padding: 0.75rem 2rem;
+    }
+
+    .div-act-arrows {
+        width: 100%;
+        text-align: right;
+        margin-top: 5px;
     }
 }
 

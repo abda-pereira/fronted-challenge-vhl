@@ -46,7 +46,6 @@
             >Activity name</span>
             <span class="title-tab-splain title-tab-splain2 div-width-30">Product</span>
             <span class="title-tab-splain title-tab-splain2 div-width-30c">Impact level</span>
-
             <div class="div-act-arrows">
               <button>
                 <i class="fas fa-chevron-left"></i>
@@ -92,38 +91,12 @@ export default {
       required: true
     }
   },
-  watch: {
-    // currentTab(newCurrentTab) {
-    //   if (this.newTab === newCurrentTab) return;
-    //   this.moveActiveLine(newCurrentTab);
-    // },
-    // updated() {
-    //   this.moveActiveLine(this.currentTab);
-    // }
-  },
-  data: () => ({
-    activeLineWidth: 0,
-    activeLineOffset: 0,
-    treeShow: undefined
+  data: () => ({treeShow: undefined
   }),
   methods: {
     handleClick(id) {
       this.treeShow = this.treeShow != id ? id : undefined;
-    },
-    moveActiveLine(newValue) {
-      if (!this.currentTab) return;
-
-      if (!this.$refs || !this.$refs[newValue] || !this.$refs[newValue][0])
-        return;
-      const element = this.$refs[newValue][0];
-
-      this.activeLineWidth = 100;
-      this.activeLineOffset =
-        element.offsetLeft + (element.clientWidth - 100) / 2;
     }
-  },
-  mounted() {
-    this.moveActiveLine(this.currentTab);
   }
 };
 </script>

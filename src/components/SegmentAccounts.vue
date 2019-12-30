@@ -2,10 +2,8 @@
   <div class="card-scene">
     <div class="title-card-acc">Account selected for {{segment}}</div>
     <div>
-      <div class="div-seg-acc">
-      <div v-if="accounts.selected.length == 0"></div>
-
-
+      <div class="div-seg-acc" style="background: rgba(0, 108, 255, 0.05);">
+        <div v-if="accounts.selected.length == 0"></div>
         <Container
           group-name="accounts"
           :get-child-payload="getChildPayload1"
@@ -41,8 +39,12 @@
     <div class="title-card-acc">Non-segmented account</div>
     <div>
       <div class="div-seg-acc">
-            <div v-if="isAccounts(accounts.non_selected, pesquisar).length == 0 && [undefined, '', ' '].indexOf(pesquisar) != -1">escreve algo aqui nada na lista </div>
-            <div v-if="isAccounts(accounts.non_selected, pesquisar).length == 0 && [undefined, '', ' '].indexOf(pesquisar) == -1">escreve algo aqui nada na pesquisa </div>
+        <div
+          v-if="isAccounts(accounts.non_selected, pesquisar).length == 0 && [undefined, '', ' '].indexOf(pesquisar) != -1"
+        ></div>
+        <div
+          v-if="isAccounts(accounts.non_selected, pesquisar).length == 0 && [undefined, '', ' '].indexOf(pesquisar) == -1"
+        ></div>
 
         <Container
           group-name="accounts"
