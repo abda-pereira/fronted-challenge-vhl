@@ -713,7 +713,7 @@ h6 {
     }
 }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 542px) {
     .div-seg-footer h4 {
         font-size: 12px;
     }
@@ -724,6 +724,7 @@ h6 {
 
     .div-obj-name-splain {
         font-size: 13px;
+        line-height: 24px;
     }
 
     .btn-v1 {
@@ -735,11 +736,13 @@ h6 {
     }
 }
 
-@media screen and (max-width: 454px) {
+@media screen and (max-width: 472px) {
     .div-seg-footer{
         height: 105px;
     }
-
+    .content {
+        margin-bottom: 100px;
+    }
     #div-btn-footer{
         margin-top: 5px;
     }
